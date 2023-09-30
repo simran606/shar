@@ -1,10 +1,13 @@
 import './App.css';
-import LandingScreen from './Components/part2.js';
+// import LandingScreen from './Components/part2.js';
+import ChartComponent from './Components/part1.js';
 
 function App() {
   return (
     <div className="App">
-      <LandingScreen />
+      {/* <LandingScreen /> */}
+      <p>Helo</p>
+      <ChartComponent />
     </div>
   );
 }
